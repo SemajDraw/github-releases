@@ -8,11 +8,12 @@
     "release": "ts-node release.ts"
   },
   "dependencies": {
-    "date-fns": "^2.30.0",
     "simple-git": "^3.20.0",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
+    "@types/yargs": "^17.0.25",
     "typescript": "^5.2.2"
   }
 }
