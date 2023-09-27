@@ -1,0 +1,20 @@
+{
+  "name": "github-releases",
+  "author": "James Ward",
+  "version": "1.0.0",
+  "license": "ISC",
+  "description": "GitHub release script",
+  "main": "release.ts",
+  "scripts": {
+    "release": "yarn release.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SemajDraw/github-releases.git"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "simple-git": "^3.20.0",
+    "ts-node": "^10.9.1"
+  }
+}
